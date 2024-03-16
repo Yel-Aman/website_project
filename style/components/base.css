@@ -1,0 +1,21 @@
+body{
+    background-color: #fdf4ea;
+    background-image: url(/image/home2_bgbody_bottom.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    background-position: left right;
+    padding: 0 5%;             /*beloe polotno ne budet prilipat k krayam*/
+}
+
+a{
+    text-decoration: none;     /*ubiraem nijnee podcherkivanie u ssylok*/
+}
+
+.container{
+    background-color: white;
+    padding: 0 5%;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 50px;
+}

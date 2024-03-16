@@ -1,0 +1,36 @@
+.header{
+    padding: 30px 5%;
+    display: flex;  /*dva bloka v etom roditele vstali ryadom*/
+    justify-content: space-between;  /* dva ob'ekta po raznym uglam*/
+}
+
+.header__item p{
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+}
+
+.header__item{
+    display: flex;   /* otdelno piwem potomu chto sdelat otstupy mejdy ssylkami */
+}
+
+a{
+    margin-left: 20px;  /* bez display flex ne poluchilos by ih otkleit drug ot druga*/
+    font-size: 14px;
+    color: #555;
+    text-transform: uppercase;
+    font-weight: normal;
+    transition: .4s;
+}
+
+.header__item a:hover{
+    color: #bac34e;
+}
+
+/* HERE STARTs ADAPTIVNAYA VERSTKA*/
+
+@media(max-width: 1000px){
+    .header{
+        display: none;
+    }
+}
